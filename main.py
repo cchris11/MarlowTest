@@ -34,7 +34,7 @@ for p in product:
     products.append(p.text)
 time.sleep(1)
 # click the 4th product
-driver.find_element(by=By.LINK_TEXT, value=products[5]).click()
+driver.find_element(by=By.LINK_TEXT, value=products[3]).click()
 time.sleep(1)
 # get product's price
 price = driver.find_element(by=By.CSS_SELECTOR, value=".a-price.a-text-price").text
