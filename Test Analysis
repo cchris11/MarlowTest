@@ -1,4 +1,4 @@
-    Purpose of the document.
+    Purpose of the document: Describe the test script
     Testing Scope: Check whether the price of a product matches the price shown in the cart
     Metrics: Boolean condition of prices comparison regarding equality
     Test Environment & Tools: Python and Selenium libraries
